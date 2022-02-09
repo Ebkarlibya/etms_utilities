@@ -7,7 +7,6 @@ frappe.ui.form.on("ETMS ERP Site", {
                 callback: function(r) {
                     var site_url = "https://" + frm.doc.name + "/desk?sid=" + r.message;
                     window.open( site_url, "_blank").focus();
-
                 }
             })
         })
