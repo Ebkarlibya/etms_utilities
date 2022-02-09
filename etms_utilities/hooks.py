@@ -14,7 +14,7 @@ app_license = "MIT"
 
 # include js, css files in header of desk.html
 # app_include_css = "/assets/etms_utilities/css/etms_utilities.css"
-# app_include_js = "/assets/etms_utilities/js/etms_utilities.js"
+app_include_js = ["/assets/etms_utilities/js/etms_erp_site.js"]
 
 # include js, css files in header of web template
 # web_include_css = "/assets/etms_utilities/css/etms_utilities.css"
